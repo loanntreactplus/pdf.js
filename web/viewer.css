@@ -2624,7 +2624,7 @@ body{
 #viewerContainer{
   overflow:auto;
   position:absolute;
-  inset:32px 0 0;
+  inset:0px 0 0;
   outline:none;
 }
 #viewerContainer:not(.pdfPresentationMode){
@@ -2643,6 +2643,7 @@ body{
   z-index:9999;
   cursor:default;
   font:message-box;
+  display:none;
 }
 
 :is(.toolbar, .editorParamsToolbar, .findbar, #sidebarContainer)
