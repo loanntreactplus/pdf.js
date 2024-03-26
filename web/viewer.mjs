@@ -3467,7 +3467,7 @@ const PDFViewerApplication = {
   }
 };
 {
-  const HOSTED_VIEWER_ORIGINS = ["null", "http://mozilla.github.io", "https://mozilla.github.io"];
+  const HOSTED_VIEWER_ORIGINS = ["null", "http://mozilla.github.io", "https://mozilla.github.io", "http://127.0.0.1:5501", "https://loanntreactplus.github.io"];
   var validateFileURL = function (file) {
     if (!file) {
       return;
