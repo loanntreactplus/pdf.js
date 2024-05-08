@@ -2585,6 +2585,7 @@ body{
 }
 
 #sidebarContainer{
+  display: none;
   position:absolute;
   inset-block:32px 0;
   inset-inline-start:calc(-1 * var(--sidebar-width));
