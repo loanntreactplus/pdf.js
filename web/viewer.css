@@ -3013,6 +3013,9 @@ body{
 #toolbarSidebarRight{
   padding-inline-end:2px;
 }
+#scaleSelectContainer{
+  display:none;
+}
 
 .splitToolbarButton{
   margin:2px;
