@@ -2644,7 +2644,6 @@ body{
   z-index:9999;
   cursor:default;
   font:message-box;
-  display:none;
 }
 
 :is(.toolbar, .editorParamsToolbar, .findbar, #sidebarContainer)
@@ -3005,9 +3004,11 @@ body{
 
 #toolbarViewerLeft{
   padding-inline-start:1px;
+  display:none;
 }
 #toolbarViewerRight{
   padding-inline-end:1px;
+  display:none;
 }
 #toolbarSidebarRight{
   padding-inline-end:2px;
