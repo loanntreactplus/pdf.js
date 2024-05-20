@@ -2634,7 +2634,6 @@ body{
 }
 
 #outerContainer.sidebarOpen #viewerContainer:not(.pdfPresentationMode){
-  inset-inline-start:var(--sidebar-width);
   transition-property:inset-inline-start;
 }
 
